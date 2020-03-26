@@ -1,0 +1,7 @@
+host: okja
+domain: uat.apps.cs.sgp.dbs.com
+services:
+  - jdbc/owner-config
+  - splunklog
+env:
+  SPRING_PROFILES_ACTIVE: uat
